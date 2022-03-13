@@ -14,10 +14,9 @@ function Form() {
       <img className="dsmovie-movie-card-image" src={movie.image} alt="The Witcher" />
       <div className="dsmovie-card-bottom-container">
         <h3>{movie.title}</h3>
+
         <form className="dsmovie-form">
-          <div className="form-group dsmovie-form-group">
-            <label htmlFor="email">Informe seu email</label>
-            <input type="email" className="form-control" id="email" />
+          <div className="form-group dsmovie-form-group"> <label htmlFor="email">Informe seu email</label> <input type="email" className="form-control" id="email" />
           </div>
           <div className="form-group dsmovie-form-group">
             <label htmlFor="score">Informe sua avaliação</label>

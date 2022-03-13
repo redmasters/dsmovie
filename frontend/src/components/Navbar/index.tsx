@@ -1,4 +1,6 @@
 import {ReactComponent as GitHubIcon} from 'assets/img/github.svg';
+import './styles.css';
+
 function Navbar() {
     return (
         <header>
@@ -8,7 +10,7 @@ function Navbar() {
                 <a href="https://github.com/redmasters" target="_blank" rel="noreferrer">
                     <div className="dsmovie-contact-container">
                         <GitHubIcon/>
-                        <p className="dsmovie-contact-link">/devsuperior</p>
+                        <p className="dsmovie-contact-link">/redmasters</p>
                     </div>
                 </a>
             </div>
@@ -16,6 +18,6 @@ function Navbar() {
     </header>
 
     );
-}
+};
 
 export default Navbar;
